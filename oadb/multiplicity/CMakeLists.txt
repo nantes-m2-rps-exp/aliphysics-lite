@@ -20,6 +20,7 @@ target_include_directories(aliphysics-lite-oadb-multiplicity
 
 set_property(TARGET aliphysics-lite-oadb-multiplicity PROPERTY PUBLIC_HEADER 
   AliMultSelection.h
+  AliMultEstimator.h
 )
 
 root_generate_dictionary(G__AliPhysicsLiteOADBMultiplicity
