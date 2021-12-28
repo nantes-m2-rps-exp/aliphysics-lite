@@ -29,5 +29,5 @@ root_generate_dictionary(G__AliPhysicsLiteOADBBase
                          aliphysics-lite-oadb-base-linkdef.h
   MODULE aliphysics-lite-oadb-base)
  
-install(TARGETS aliphysics-lite-oadb-base)
+install(TARGETS aliphysics-lite-oadb-base EXPORT aliphysics-lite)
 

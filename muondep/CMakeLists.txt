@@ -34,4 +34,4 @@ root_generate_dictionary(G__AliPhysicsLiteMuonDep
                          aliphysics-lite-muondep-linkdef.h
   MODULE aliphysics-lite-muondep)
 
-install(TARGETS aliphysics-lite-muondep)
+install(TARGETS aliphysics-lite-muondep EXPORT aliphysics-lite)

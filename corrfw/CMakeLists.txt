@@ -27,4 +27,4 @@ root_generate_dictionary(G__aliphysicsLite
                          aliphysics-lite-corrfw-linkdef.h
   MODULE aliphysics-lite-corrfw)
 
-install(TARGETS aliphysics-lite-corrfw)
+install(TARGETS aliphysics-lite-corrfw EXPORT aliphysics-lite)

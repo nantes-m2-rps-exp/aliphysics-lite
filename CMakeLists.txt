@@ -23,3 +23,9 @@ add_subdirectory(muon)
 add_subdirectory(muondep)
 add_subdirectory(oadb)
 
+install(EXPORT aliphysics-lite
+        DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/aliphysics-lite
+        FILE aliphysics-lite.cmake)
+
+install(FILES aliphysics-lite-config.cmake
+        DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/aliphysics-lite)

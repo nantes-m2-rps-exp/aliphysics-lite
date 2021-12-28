@@ -68,4 +68,4 @@ root_generate_dictionary(G__aliphysicsLiteMuon
                          aliphysics-lite-muon-linkdef.h
   MODULE aliphysics-lite-muon)
 
-install(TARGETS aliphysics-lite-muon)
+install(TARGETS aliphysics-lite-muon EXPORT aliphysics-lite)

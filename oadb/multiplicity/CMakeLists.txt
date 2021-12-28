@@ -31,5 +31,5 @@ root_generate_dictionary(G__AliPhysicsLiteOADBMultiplicity
                          aliphysics-lite-oadb-multiplicity-linkdef.h
   MODULE aliphysics-lite-oadb-multiplicity)
  
-install(TARGETS aliphysics-lite-oadb-multiplicity)
+install(TARGETS aliphysics-lite-oadb-multiplicity EXPORT aliphysics-lite)
 
