@@ -20,7 +20,8 @@ target_include_directories(aliphysics-lite-muondep
 set_property(TARGET aliphysics-lite-muondep PROPERTY PUBLIC_HEADER 
 AliAnalysisMuMuFnorm.h 
 AliAnalysisRunList.h 
-AliAnalysisMuMuConfig.h)
+AliAnalysisMuMuConfig.h
+AliAnalysisTriggerScalers.h)
 
 target_link_libraries(aliphysics-lite-muondep PUBLIC aliroot-lite-cdb aliroot-lite-steer aliroot-lite-ana-base aliphysics-lite-muon ROOT::Gpad)
 
